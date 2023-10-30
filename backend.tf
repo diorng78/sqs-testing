@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "dior-s3"
-    key    = "path/to/my/key"
+    bucket = "sctp-ce3-tfstate-bucket-1"
+    key    = "dior.tfstate"
     region = "us-east-1"
   }
 }
